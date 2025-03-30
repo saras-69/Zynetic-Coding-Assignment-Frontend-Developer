@@ -1,6 +1,11 @@
 # Weather Dashboard
 
-![Weather Dashboard Preview](https://i.imgur.com/PLACEHOLDER.jpg)
+## Demo
+
+<video width="640" height="360" controls>
+  <source src="./assets/videos/your-video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Overview
 
