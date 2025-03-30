@@ -3,7 +3,7 @@
 ## Demo
 
 
-![Weather Dashboard Demo](./assets/videos/video.mp4)
+![Weather Dashboard Demo](./assets/videos/video.gif)
 
 ## Overview
 
@@ -37,4 +37,70 @@ Weather Dashboard is a modern, responsive web application that provides detailed
 - npm or yarn
 
 ### Installation
+1. Clone the repository
+    ```bash
+    git clone https://github.com/saras-69/Zynetic-Coding-Assignment-Frontend-Developer.git
+    cd weather-dashboard
+    ```
 
+2. Install dependencies
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+
+3. Create a `.env` file in the root directory and add your OpenWeatherMap API key
+    ```
+    VITE_OPENWEATHER_API_KEY=your_api_key_here
+    ```
+
+4. Start the development server
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
+
+5. Open your browser and navigate to `http://localhost:5173`
+
+## API Integration
+
+This application uses the OpenWeatherMap API to fetch weather data:
+
+- **Current Weather Data**: Used to display current conditions
+- **5-Day Forecast API**: Used for the 5-day weather forecast
+- **Geocoding API**: For converting city names to coordinates
+
+### API Rate Limits
+
+- Free OpenWeatherMap API tier allows:
+  - 60 calls per minute
+  - 1,000,000 calls per month
+  - Access to current weather, 5-day forecasts, and geocoding
+
+### API Key Security
+
+- The API key is stored in a `.env` file that is not committed to the repository
+- In production, the key is set as an environment variable on the hosting platform
+- API calls are proxied through the application to avoid exposing the key in client-side code
+
+## Deployment
+
+The application can be deployed to services like Vercel, Netlify, or GitHub Pages:
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+The build output will be in the `dist` directory, which can be deployed to any static hosting service.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
