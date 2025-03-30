@@ -1,12 +1,37 @@
-# React + Vite
+# Weather Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Weather Dashboard Preview](https://i.imgur.com/PLACEHOLDER.jpg)
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Weather Dashboard is a modern, responsive web application that provides detailed weather information for any city in the world. Built with React and Vite, it leverages the OpenWeatherMap API to display current weather conditions, forecasts, and other meteorological data in a beautiful, user-friendly interface.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Real-time Weather Data**: Get current weather information for any city worldwide
+- **Location Detection**: Automatically fetch weather for your current location
+- **5-Day Forecast**: View detailed weather forecasts for the next five days
+- **Time-of-Day Indicator**: Visual representation of the current time at the selected location
+- **Weather Animations**: Beautiful visual effects based on current weather conditions (rain, snow, etc.)
+- **Search History**: Quickly access previously searched locations
+- **Dark Mode**: Toggle between light and dark themes for comfortable viewing
+- **Responsive Design**: Works perfectly on all devices from mobile to desktop
+
+## Technologies Used
+
+- **Frontend**: React 18, TailwindCSS, Lucide Icons
+- **Build Tool**: Vite
+- **State Management**: React Context API
+- **API**: OpenWeatherMap API
+- **Performance Optimization**: Code splitting, lazy loading, memoization
+- **Animations**: CSS animations, transitions, and keyframes
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14.0.0 or higher)
+- npm or yarn
+
+### Installation
+
