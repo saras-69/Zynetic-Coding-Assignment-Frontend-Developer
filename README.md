@@ -3,6 +3,10 @@
 ## Demo
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> c40c9965e08bf73f292dd7d3e2e11b9deb0f3ffa
 ![Weather Dashboard Demo](./assets/videos/video.gif)
 
 ## Overview
